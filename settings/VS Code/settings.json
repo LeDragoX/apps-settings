@@ -1,0 +1,130 @@
+{
+  // cSpell
+  "cSpell.enableFiletypes": ["powershell"],
+  "cSpell.language": "en,pt",
+  // discord
+  "discord.detailsIdling": "🔎 Searching on Files...",
+  "discord.detailsEditing": "🚀 {file_name} with {file_size}",
+  "discord.largeImageIdling": "👨‍💻 Coding and Relaxing",
+  "discord.lowerDetailsDebugging": "🔨 Debugging: {git_branch}",
+  "discord.lowerDetailsEditing": "📁 Project: {workspace}",
+  "discord.lowerDetailsIdling": "🕡 Refreshing the mind",
+  "discord.lowerDetailsNoWorkspaceFound": "{file_size}",
+  // editor
+  "editor.bracketPairColorization.enabled": true,
+  "editor.detectIndentation": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontFamily": "'JetBrains Mono', 'MesloLGS NF', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.rulers": [50, 100, 150, 200],
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "files.trimTrailingWhitespace": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2
+  },
+  // explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    "*.tsx": "typescriptreact",
+    ".env.*": "dotenv",
+    ".prettierrc": "json"
+  },
+  // git
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.enableCommitSigning": true,
+  // github copilot
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false
+  },
+  // gitlens
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.defaultDateLocale": "pt-BR",
+  "gitlens.defaultDateFormat": "DD-MM-YYYY H:MM a",
+  "gitlens.defaultTimeFormat": "H:mm a",
+  "gitlens.defaultDateShortFormat": null,
+  // markdown-preview-enhanced
+  "markdown-preview-enhanced.previewTheme": "monokai.css",
+  // prettier
+  "prettier.arrowParens": "avoid",
+  "prettier.printWidth": 140,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  // tabnine
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.fontSize": 14,
+  "workbench.colorTheme": "One Monokai",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.lnk": "default",
+    "*.sqlite3": "default"
+  },
+  "workbench.editor.tabSizing": "shrink",
+  // misc
+  "diffEditor.ignoreTrimWhitespace": false,
+  "javascript.format.semicolons": "remove",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "powershell.codeFormatting.preset": "OTBS",
+  "redhat.telemetry.enabled": false,
+  "typescript.format.semicolons": "insert",
+  "typescript.suggest.completeFunctionCalls": true,
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+  "yaml.schemas": {
+    "file:///c%3A/Users/plini/.vscode/extensions/docsmsft.docs-yaml-1.0.4/dist/toc.schema.json": "/toc\\.yml/i"
+  },
+  "console-ninja.featureSet": "Pro",
+  "liveServer.settings.donotVerifyTags": true,
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.env.windows": {},
+  "editor.linkedEditing": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "githubPullRequests.createOnPublishBranch": "never",
+  "cmake.pinnedCommands": ["workbench.action.tasks.configureTaskRunner", "workbench.action.tasks.runTask"],
+  "cmake.showConfigureWithDebuggerNotification": false,
+  "editor.largeFileOptimizations": false,
+  "cSpell.userWords": ["immediates", "Immediates", "Structurize"],
+  "githubPullRequests.pullBranch": "never",
+  "prettier.endOfLine": "auto",
+  "workbench.iconTheme": "material-icon-theme",
+  "cmake.showOptionsMovedNotification": false
+}

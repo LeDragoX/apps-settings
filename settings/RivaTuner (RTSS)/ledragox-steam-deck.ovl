@@ -1,0 +1,384 @@
+[Master]
+Implementation=2
+FontFace=Open Sans SemiBold
+FontHeight=-9
+FontWeight=600
+ZoomRatio=2
+[Settings]
+Name=
+EnvVars=
+RefreshPeriod=250
+EmbeddedImage=
+PingAddr=
+[General]
+Sources=18
+Tables=2
+Layers=22
+[Source0]
+Name=GPU temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000000
+Gpu=00000000
+SrcName=
+[Source1]
+Name=GPU usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000030
+Gpu=00000000
+SrcName=
+[Source2]
+Name=Core clock
+Units=MHz
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000020
+Gpu=00000000
+SrcName=
+[Source3]
+Name=Memory usage
+Units=MB
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000031
+Gpu=00000000
+SrcName=
+[Source4]
+Name=Memory clock
+Units=MHz
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000022
+Gpu=00000000
+SrcName=
+[Source5]
+Name=CPU temperature
+Units=°C
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000080
+Gpu=FFFFFFFF
+SrcName=
+[Source6]
+Name=CPU usage
+Units=%
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000090
+Gpu=FFFFFFFF
+SrcName=
+[Source7]
+Name=CPU clock
+Units=MHz
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=000000A0
+Gpu=FFFFFFFF
+SrcName=
+[Source8]
+Name=RAM usage
+Units=MB
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000091
+Gpu=00000000
+SrcName=
+[Source9]
+Name=Framerate
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000050
+Gpu=FFFFFFFF
+SrcName=
+[Source10]
+Name=Frametime
+Units=ms
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000051
+Gpu=FFFFFFFF
+SrcName=
+[Source11]
+Name=RAM usage percent
+Units=%
+Format=
+Formula=
+Provider=HAL
+ID=RAM usage percent
+[Source12]
+Name=RAM usage
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=RAM usage
+[Source13]
+Name=GPU1 memory usage
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory usage
+[Source14]
+Name=CPU power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=CPU power
+[Source15]
+Name=GPU1 power
+Units=W
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 power
+[Source16]
+Name=RAM usage \ process
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=RAM usage \ process
+[Source17]
+Name=GPU1 memory usage \ process
+Units=MB
+Format=
+Formula=
+Provider=HAL
+ID=GPU1 memory usage \ process
+[Table0]
+Name=GPU USAGE
+Lines=1
+Line0Name=GPU USAGE
+Line0Cells=1
+Line0Cell0Source=GPU usage
+[Table1]
+Name=FPS
+ValueAlignment=0
+UnitsAlignment=0
+Lines=1
+Line0Name=
+Line0Cells=1
+Line0Cell0Source=Framerate
+[Layer0]
+Name=CPU usage
+Text=%CPU usage%%
+PositionX=-46
+PositionY=0
+ExtentX=-3
+ExtentY=-1
+ExtentOrigin=5
+TextColor=FFFFFF
+[Layer1]
+Name=API + FRAMERATE
+Text=%Framerate% <S=50>FPS<S> <FT> <S=66>ms<S>
+PositionX=-8
+PositionY=0
+ExtentX=-9
+ExtentY=-1
+ExtentOrigin=5
+TextColor=FFFFFF
+[Layer2]
+Name=FRAMETIME
+Text=<G=Frametime,-35,-2,1,-50,100,0>
+PositionX=-19
+PositionY=0
+ExtentX=-18
+ExtentY=-1
+ExtentOrigin=4
+Size=50
+TextColor=80FF80
+[Layer3]
+Name=Separator
+Text=|
+PositionX=-37
+PositionY=0
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=4
+Size=90
+TextColor=C68EFF
+[Layer4]
+Name=Separator
+Text=|
+PositionX=-78
+PositionY=0
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=4
+Size=90
+TextColor=C68EFF
+[Layer5]
+Name=Separator
+Text=|
+PositionX=-98
+PositionY=0
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=4
+Size=90
+TextColor=C68EFF
+[Layer6]
+Name=Separator
+Text=|
+PositionX=-57
+PositionY=0
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=4
+Size=90
+TextColor=C68EFF
+[Layer7]
+Name=" GPU temperature"
+VisibilitySource=GPU temperature
+Text=%GPU temperature%<S=66>°C<S>
+PositionX=-71
+PositionY=0
+ExtentX=-3
+ExtentY=-1
+ExtentOrigin=4
+TextColor=FFFFFF
+[Layer8]
+Name=GPU
+Text=%GPU%
+PositionX=-59
+PositionY=0
+ExtentX=-7
+ExtentY=-1
+ExtentOrigin=0
+TextColor=80FF80
+[Layer9]
+Name=CPU
+Text=%CPUShort%
+PositionX=-39
+PositionY=0
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=4
+TextColor=63C9F2
+[Layer10]
+Name=RAM
+Text=RAM
+PositionX=-80
+PositionY=0
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=4
+TextColor=CD78A3
+[Layer11]
+Name=FPS API
+Text=<APP>
+PositionX=-1
+PositionY=0
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=5
+TextColor=DB7A7E
+[Layer12]
+Name=CPU temp 1
+Text=%CPU temperature%<S=66>°C<S>
+PositionX=-50
+PositionY=0
+ExtentX=-3
+ExtentY=-1
+ExtentOrigin=4
+TextColor=FFFFFF
+[Layer13]
+Name=Separator
+Text=|
+PositionX=-17
+PositionY=0
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=4
+Size=90
+TextColor=C68EFF
+[Layer14]
+Name=CPU usage
+Text=%GPU usage%%
+PositionX=-67
+PositionY=0
+ExtentX=-3
+ExtentY=-1
+ExtentOrigin=5
+TextColor=FFFFFF
+[Layer15]
+Name=RAM usage
+Text=%RAM usage%<S=66>MiB<S> (%RAM usage \ process%<S=66>MiB<S>)
+PositionX=-85
+PositionY=0
+ExtentX=-13
+ExtentY=-1
+ExtentOrigin=5
+TextColor=FFFFFF
+[Layer16]
+Name=VRAM
+Text=VRAM
+PositionX=-100
+PositionY=0
+ExtentX=-5
+ExtentY=-1
+ExtentOrigin=4
+TextColor=BD7DD2
+[Layer17]
+Name=RAM usage
+Text=%GPU1 memory usage%<S=66>MiB<S> (%GPU1 memory usage \ process%<S=66>MiB<S>)
+PositionX=-106
+PositionY=0
+ExtentX=-12
+ExtentY=-1
+ExtentOrigin=5
+TextColor=FFFFFF
+[Layer18]
+Name=Separator
+Text=|
+PositionX=-118
+PositionY=0
+ExtentX=-2
+ExtentY=-1
+ExtentOrigin=4
+Size=90
+TextColor=C68EFF
+[Layer19]
+Name=CPU usage
+Text=%CPU power%<S=66>W<S>
+PositionX=-53
+PositionY=0
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=5
+TextColor=FFFFFF
+[Layer20]
+Name=CPU usage
+Text=%GPU1 power%<S=66>W<S>
+PositionX=-74
+PositionY=0
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=5
+TextColor=FFFFFF
+[Layer21]
+Name=
+Text=<TIME=%H:%M>
+PositionX=-120
+PositionY=0
+ExtentX=-4
+ExtentY=-1
+ExtentOrigin=4
+TextColor=FFFFFF
