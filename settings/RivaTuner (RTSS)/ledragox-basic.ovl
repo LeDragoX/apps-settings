@@ -11,9 +11,9 @@ RefreshPeriod=1000
 EmbeddedImage=
 PingAddr=
 [General]
-Sources=14
+Sources=15
 Tables=0
-Layers=35
+Layers=39
 [Source0]
 Name=CPU clock
 Units=MHz
@@ -108,6 +108,15 @@ SrcId=00000050
 Gpu=FFFFFFFF
 SrcName=
 [Source13]
+Name=Framerate Avg
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000053
+Gpu=FFFFFFFF
+SrcName=
+[Source14]
 Name=Frametime
 Units=ms
 Format=
@@ -118,7 +127,7 @@ Gpu=FFFFFFFF
 SrcName=
 [Layer0]
 Name=Frametime Graph
-Text=<G=Frametime,-35,-2,1,-50,100,0>
+Text=<G=Frametime,-26,-2,1,-50,100,0>
 PositionX=0
 PositionY=-6
 ExtentX=0
@@ -225,6 +234,7 @@ ExtentX=-1
 ExtentY=-1
 ExtentOrigin=3
 Size=50
+MarginLeft=1
 MarginBottom=2
 [Layer12]
 Name=W
@@ -235,6 +245,7 @@ ExtentX=-1
 ExtentY=-1
 ExtentOrigin=3
 Size=50
+MarginLeft=1
 MarginBottom=2
 [Layer13]
 Name=GPU Power
@@ -294,6 +305,7 @@ ExtentX=-1
 ExtentY=-1
 ExtentOrigin=3
 Size=50
+MarginLeft=1
 MarginBottom=2
 [Layer19]
 Name=MB
@@ -326,6 +338,7 @@ ExtentX=-1
 ExtentY=-1
 ExtentOrigin=3
 Size=50
+MarginLeft=1
 MarginBottom=2
 [Layer22]
 Name=MHz
@@ -336,6 +349,7 @@ ExtentX=-1
 ExtentY=-1
 ExtentOrigin=3
 Size=50
+MarginLeft=1
 MarginBottom=2
 [Layer23]
 Name=%
@@ -438,6 +452,52 @@ TextColor=FFFFFF
 Name=ms
 Text=ms
 PositionX=-26
+PositionY=-4
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=3
+Size=50
+TextColor=FFFFFF
+MarginLeft=1
+MarginBottom=2
+[Layer35]
+Name=1% Low
+VisibilitySource=Framerate Avg
+Text=%Framerate 1% Low%
+PositionX=-28
+PositionY=-4
+ExtentX=30
+ExtentY=11
+ExtentOrigin=5
+TextColor=FFFFFF
+[Layer36]
+Name=FPS label
+VisibilitySource=Framerate Avg
+Text=FPS
+PositionX=-33
+PositionY=-4
+ExtentX=-1
+ExtentY=-1
+ExtentOrigin=3
+Size=50
+TextColor=FFFFFF
+MarginLeft=1
+MarginBottom=2
+[Layer37]
+Name=Avg FPS
+VisibilitySource=Framerate Avg
+Text=%Framerate Avg%
+PositionX=-35
+PositionY=-4
+ExtentX=30
+ExtentY=11
+ExtentOrigin=5
+TextColor=FFFFFF
+[Layer38]
+Name=FPS label
+VisibilitySource=Framerate Avg
+Text=FPS
+PositionX=-40
 PositionY=-4
 ExtentX=-1
 ExtentY=-1

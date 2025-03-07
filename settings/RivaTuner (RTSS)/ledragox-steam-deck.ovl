@@ -11,9 +11,9 @@ RefreshPeriod=250
 EmbeddedImage=
 PingAddr=
 [General]
-Sources=18
+Sources=19
 Tables=2
-Layers=22
+Layers=24
 [Source0]
 Name=GPU temperature
 Units=°C
@@ -105,6 +105,15 @@ SrcId=00000050
 Gpu=FFFFFFFF
 SrcName=
 [Source10]
+Name=Framerate Avg
+Units=FPS
+Format=
+Formula=
+Provider=MSI Afterburner
+SrcId=00000053
+Gpu=FFFFFFFF
+SrcName=
+[Source11]
 Name=Frametime
 Units=ms
 Format=
@@ -113,49 +122,49 @@ Provider=MSI Afterburner
 SrcId=00000051
 Gpu=FFFFFFFF
 SrcName=
-[Source11]
+[Source12]
 Name=RAM usage percent
 Units=%
 Format=
 Formula=
 Provider=HAL
 ID=RAM usage percent
-[Source12]
+[Source13]
 Name=RAM usage
 Units=MB
 Format=
 Formula=
 Provider=HAL
 ID=RAM usage
-[Source13]
+[Source14]
 Name=GPU1 memory usage
 Units=MB
 Format=
 Formula=
 Provider=HAL
 ID=GPU1 memory usage
-[Source14]
+[Source15]
 Name=CPU power
 Units=W
 Format=
 Formula=
 Provider=HAL
 ID=CPU power
-[Source15]
+[Source16]
 Name=GPU1 power
 Units=W
 Format=
 Formula=
 Provider=HAL
 ID=GPU1 power
-[Source16]
+[Source17]
 Name=RAM usage \ process
 Units=MB
 Format=
 Formula=
 Provider=HAL
 ID=RAM usage \ process
-[Source17]
+[Source18]
 Name=GPU1 memory usage \ process
 Units=MB
 Format=
@@ -382,3 +391,25 @@ ExtentX=-4
 ExtentY=-1
 ExtentOrigin=4
 TextColor=FFFFFF
+[Layer22]
+Name=Avg FPS & 1% Low
+VisibilitySource=Framerate Avg
+Text=%Framerate Avg% <S=50>FPS<S> %Framerate 1% Low% <S=50>FPS<S>
+PositionX=-8
+PositionY=-1
+ExtentX=-9
+ExtentY=-1
+ExtentOrigin=3
+TextColor=FFFFFF
+MarginLeft=2
+[Layer23]
+Name=Avg FPS & 1% Low Label
+VisibilitySource=Framerate Avg
+Text=AVG/1%
+PositionX=-1
+PositionY=-1
+ExtentX=-6
+ExtentY=-1
+ExtentOrigin=3
+TextColor=DB7A7E
+MarginLeft=2
