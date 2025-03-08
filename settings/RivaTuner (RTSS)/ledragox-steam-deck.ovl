@@ -205,7 +205,7 @@ ExtentOrigin=5
 TextColor=FFFFFF
 [Layer2]
 Name=FRAMETIME
-Text=<G=Frametime,-35,-2,1,-50,100,0>
+Text=<G=Frametime,-35,5,0,0,100,0>
 PositionX=-19
 PositionY=0
 ExtentX=-18
