@@ -38,13 +38,16 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[powershell]": {
     "editor.defaultFormatter": "ms-vscode.powershell",
     "editor.insertSpaces": true,
     "editor.tabSize": 4,
     "files.trimTrailingWhitespace": true
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   },
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features",
