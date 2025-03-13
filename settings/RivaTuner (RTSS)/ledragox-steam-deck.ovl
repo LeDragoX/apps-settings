@@ -395,7 +395,7 @@ TextColor=FFFFFF
 Name=Avg FPS & 1% Low
 VisibilitySource=Framerate Avg
 Text=%Framerate Avg% <S=50>FPS<S> %Framerate 1% Low% <S=50>FPS<S>
-PositionX=-8
+PositionX=-66
 PositionY=-1
 ExtentX=-9
 ExtentY=-1
@@ -406,7 +406,7 @@ MarginLeft=2
 Name=Avg FPS & 1% Low Label
 VisibilitySource=Framerate Avg
 Text=AVG/1%
-PositionX=-1
+PositionX=-59
 PositionY=-1
 ExtentX=-6
 ExtentY=-1

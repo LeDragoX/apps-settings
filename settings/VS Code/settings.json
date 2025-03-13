@@ -129,5 +129,6 @@
   "githubPullRequests.pullBranch": "never",
   "prettier.endOfLine": "auto",
   "workbench.iconTheme": "material-icon-theme",
-  "cmake.showOptionsMovedNotification": false
+  "cmake.showOptionsMovedNotification": false,
+  "editor.formatOnSave": true
 }
