@@ -1,7 +1,18 @@
 {
+  // cmake
+  "cmake.pinnedCommands": ["workbench.action.tasks.configureTaskRunner", "workbench.action.tasks.runTask"],
+  "cmake.showConfigureWithDebuggerNotification": false,
+  "cmake.showOptionsMovedNotification": false,
+  // javascript
+  "javascript.format.semicolons": "remove",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  // typescript
+  "typescript.format.semicolons": "insert",
+  "typescript.suggest.completeFunctionCalls": true,
   // cSpell
   "cSpell.enableFiletypes": ["powershell"],
   "cSpell.language": "en,pt",
+  "cSpell.userWords": ["Fullscreen", "immediates", "Immediates", "Structurize"],
   // discord
   "discord.detailsIdling": "🔎 Searching on Files...",
   "discord.detailsEditing": "🚀 {file_name} with {file_size}",
@@ -17,6 +28,9 @@
   "editor.fontFamily": "'JetBrains Mono', 'MesloLGS NF', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.largeFileOptimizations": false,
+  "editor.linkedEditing": true,
   "editor.rulers": [50, 100, 150, 200],
   "editor.suggestSelection": "first",
   "editor.tabSize": 2,
@@ -85,6 +99,9 @@
   "gitlens.defaultDateFormat": "DD-MM-YYYY H:MM a",
   "gitlens.defaultTimeFormat": "H:mm a",
   "gitlens.defaultDateShortFormat": null,
+  // githubPullRequests
+  "githubPullRequests.createOnPublishBranch": "never",
+  "githubPullRequests.pullBranch": "never",
   // markdown-preview-enhanced
   "markdown-preview-enhanced.previewTheme": "monokai.css",
   // prettier
@@ -94,7 +111,11 @@
   "prettier.singleQuote": true,
   // tabnine
   "tabnine.experimentalAutoImports": true,
+  // terminal
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.env.windows": {},
   "terminal.integrated.fontSize": 14,
+  // workbench
   "workbench.colorTheme": "One Monokai",
   "workbench.editorAssociations": {
     "*.ipynb": "jupyter-notebook",
@@ -102,33 +123,18 @@
     "*.sqlite3": "default"
   },
   "workbench.editor.tabSizing": "shrink",
+  "workbench.iconTheme": "material-icon-theme",
   // misc
+  "console-ninja.featureSet": "Pro",
   "diffEditor.ignoreTrimWhitespace": false,
-  "javascript.format.semicolons": "remove",
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.endOfLine": "auto",
   "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
   "powershell.codeFormatting.preset": "OTBS",
   "redhat.telemetry.enabled": false,
-  "typescript.format.semicolons": "insert",
-  "typescript.suggest.completeFunctionCalls": true,
+  "security.workspace.trust.untrustedFiles": "open",
   "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
   "yaml.schemas": {
     "file:///c%3A/Users/plini/.vscode/extensions/docsmsft.docs-yaml-1.0.4/dist/toc.schema.json": "/toc\\.yml/i"
-  },
-  "console-ninja.featureSet": "Pro",
-  "liveServer.settings.donotVerifyTags": true,
-  "terminal.integrated.env.linux": {},
-  "terminal.integrated.env.windows": {},
-  "editor.linkedEditing": true,
-  "security.workspace.trust.untrustedFiles": "open",
-  "githubPullRequests.createOnPublishBranch": "never",
-  "cmake.pinnedCommands": ["workbench.action.tasks.configureTaskRunner", "workbench.action.tasks.runTask"],
-  "cmake.showConfigureWithDebuggerNotification": false,
-  "editor.largeFileOptimizations": false,
-  "cSpell.userWords": ["immediates", "Immediates", "Structurize"],
-  "githubPullRequests.pullBranch": "never",
-  "prettier.endOfLine": "auto",
-  "workbench.iconTheme": "material-icon-theme",
-  "cmake.showOptionsMovedNotification": false,
-  "editor.formatOnSave": true
+  }
 }

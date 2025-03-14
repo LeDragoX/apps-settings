@@ -1,5 +1,9 @@
 # About each Setting
 
+## Games
+
+The _Games_ folder is exclusive to games settings or mods I use.
+
 ## Handbrake
 
 These settings can be imported as Presets on the app.
