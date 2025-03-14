@@ -401,7 +401,6 @@ ExtentX=-9
 ExtentY=-1
 ExtentOrigin=3
 TextColor=FFFFFF
-MarginLeft=2
 [Layer23]
 Name=Avg FPS & 1% Low Label
 VisibilitySource=Framerate Avg
@@ -412,4 +411,3 @@ ExtentX=-6
 ExtentY=-1
 ExtentOrigin=3
 TextColor=DB7A7E
-MarginLeft=2
