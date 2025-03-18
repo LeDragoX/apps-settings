@@ -14,7 +14,11 @@ _The "Meme" presets are to fit 10MB on Discord._
 
 Open this app and and Import the settings, then click on "**Apply Changes**".
 
-_Requires an NVIDIA GPU._
+_Requires a NVIDIA GPU._
+
+## OBS Studio
+
+Contains settings for Stream/Recording, and plugins (among other things) suggestions.
 
 ## Playnite
 
