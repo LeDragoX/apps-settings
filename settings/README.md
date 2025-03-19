@@ -1,5 +1,9 @@
 # About each Setting
 
+## Browser Extensions
+
+A list of Browser Addons/Extensions.
+
 ## Games
 
 The _Games_ folder is exclusive to games settings or mods I use.
