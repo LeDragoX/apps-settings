@@ -14,10 +14,11 @@
 
 ## Chrome Only
 
-1. **Netflix 1080p**: <https://chromewebstore.google.com/detail/netflix-1080p/cankofcoohmbhfpcemhmaaeennfbnmgp>
+1. **Google Translate**: <https://chromewebstore.google.com/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb>
+2. **Netflix 1080p**: <https://chromewebstore.google.com/detail/netflix-1080p/cankofcoohmbhfpcemhmaaeennfbnmgp>
 
 ## Firefox Only
 
-1. **Cookie Remover**: <https://addons.mozilla.org/pt-BR/firefox/addon/cookie-remover/?utm_content=addons-manager-reviews-link&utm_medium=firefox-browser&utm_source=firefox-browser>
+1. **Cookie Remover**: <https://addons.mozilla.org/en-US/firefox/addon/cookie-remover/>
 2. **Netflix 1080p Firefox**: <https://github.com/vladikoff/netflix-1080p-firefox>
 3. **Translate Web Pages (BR?)**: <https://github.com/FilipePS/Traduzir-paginas-web>
