@@ -10,6 +10,7 @@ I highly suggest to start reading [OBS Settings](obs-settings.md) first if _you 
 4. **[Move](https://obsproject.com/forum/resources/move.913/)**: Make sources movable and have animations, so they feel more alive and also react with audio.
 5. **[obs-composite-blur](https://obsproject.com/forum/resources/composite-blur.1780/)**: Censor stuff you don't want to show (was from the old StreamFX).
 6. **[obs-multi-rtmp](https://github.com/sorayuki/obs-multi-rtmp/)**: Enables OBS to multi-stream on any platform you want.
+   1. **IMPORTANT:** Download the latest **Release** (not Pre-Release) ZIP FILE, not the installer, the installer is installing on `ProgramData` and is outdated.
 7. **[obs-shaderfilter](https://github.com/exeldro/obs-shaderfilter/)**: Customize the appearance of your source with a shader filter.
 8. **[Scene as Transition](https://obsproject.com/forum/resources/scene-as-transition.1704/)**: Use a entire scene to act as a transition.
 9. **[Stroke Glow Shadow](https://obsproject.com/forum/resources/stroke-glow-shadow.1800/)**: Adds essential design filters to any of your sources (was from the old StreamFX).
