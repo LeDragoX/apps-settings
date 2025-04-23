@@ -21,12 +21,12 @@ I still don't know the GOOD reasons exactly, but running OBS as administrator wi
 
 ## Settings Guide
 
-### General
+### ⚙️ General
 
 1. **Language**: here you want to set to **English** to simplify the understanding, but can go back to your language after that.
 2. **Source Alignment Snapping**: make sure to enable all of the boxes of this section, and set the **sensitivity** to **10.0**.
 
-### Stream
+### 📡 Stream
 
 1. Choose the platform you want to stream and search the **platform streaming settings** they recommend, this settings guide will follow with "YouTube - RTMPS" as it contains powerful codecs support.
 2. Now DON'T connect your account, _only provide the stream key_, because connecting it will use a LOT of RAM and store browser cache in your OBS.
@@ -35,7 +35,7 @@ I still don't know the GOOD reasons exactly, but running OBS as administrator wi
 
 **YouTube only**: even if you don't have a 1440p+ monitor, create a stream key to use **1440p60**. It'll change their encoder from `avc1` (H264) to `vp09` (VP9) on _Stats for Nerds_.
 
-### Output
+### 📹 Output
 
 Set the **Output Mode** to `Advanced`, so you can see all the options.
 
@@ -92,7 +92,7 @@ Recording first as you can exceed any limit imposed by any platform, but be care
 
 Sorry because I only have a 1080p monitor, so ONLY the bitrate may differ and you'll require more testing.
 
-### Audio
+### 🔊 Audio
 
 1. **Sample Rate**: This will depend on your audio setup, but generally is 48KHz. Remember to check your system's sound panel and make every device the same!
 
@@ -100,15 +100,45 @@ Sorry because I only have a 1080p monitor, so ONLY the bitrate may differ and yo
 
 Disable all audios from **Desktop** and **Microphones**. Create a Scene only for **audio management**, and import it to the others as needed.
 
-### Video
+### 🖥️ Video
 
 If you have a dedicated GPU, just set it to the max resolution on **Base (Canvas) Resolution** and **Output (Scaled) Resolution** and use 60FPS.
 
-### Hotkeys
+### ⌨️ Hotkeys
 
 Always have keys to mute **yourself** and **Discord**. If your keyboard have a numpad, make good use of it, now it is its time to shine. Use `Alt + Num 1 to 9` to change scenes, for other keys combinations always use `ALT` first, it won't conflict with most programs.
 
-### Advanced
+<details>
+<summary>What I'm Using</summary>
+
+|         Section          |                   Name | Hotkey          |
+| :----------------------: | ---------------------: | :-------------- |
+|      **(General)**       |      Stop Streaming \* | Alt + End       |
+|                          |     Start Recording \* | Alt + Page Down |
+|                          |      Stop Recording \* | Alt + Page Down |
+|                          |     Pause Recording \* | Alt + ]         |
+|                          |   Unpause Recording \* | Alt + ]         |
+|                          | Start Replay Buffer \* | Alt + /         |
+|                          | Start Replay Buffer \* | Alt + /         |
+|                          |   Screenshot Output \* | Alt + F12       |
+|    **Replay Buffer**     |         Save Replay \* | Alt + .         |
+|                          |         Save Replay \* | Alt + C         |
+|       **Scene 1**        |        Switch to scene | Alt + Num 1     |
+|       **Scene 2**        |        Switch to scene | Alt + Num 2     |
+|       **Scene 3**        |        Switch to scene | Alt + Num 3     |
+|       **Scene 4**        |        Switch to scene | Alt + Num 4     |
+|   **Stream Starting**    |        Switch to scene | Alt + Num 8     |
+|    **Stream Ending**     |        Switch to scene | Alt + Num 9     |
+|     **A - Discord**      |                Mute \* | Alt + Num ,     |
+|                          |              Unmute \* | Alt + Num ,     |
+| **A - General Isolated** |                Mute \* | Alt + M         |
+|                          |              Unmute \* | Alt + M         |
+|       **A - Mic**        |                Mute \* | Alt + Num 0     |
+|                          |              Unmute \* | Alt + Num 0     |
+
+</details>
+
+### 🛠️ Advanced
 
 #### Video
 

@@ -11,6 +11,8 @@
 6. **Return YouTube Dislike**: <https://github.com/Anarios/return-youtube-dislike>
 7. **Sponsor Block**: <https://github.com/ajayyy/SponsorBlock>
 8. **BetterTTV**: <https://betterttv.com/>
+9. **User-Agent Switcher and Manager**: <https://github.com/ray-lothian/UserAgent-Switcher>
+   1. Use the White-List Mode on your preferred sites.
 
 ## Chrome Only
 

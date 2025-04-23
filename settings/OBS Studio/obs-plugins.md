@@ -24,14 +24,13 @@ I highly suggest to start reading [OBS Settings](obs-settings.md) first if _you 
 ## Scripts
 
 1. **[obs-filter-hotkeys](https://obsproject.com/forum/resources/obs-filter-hotkeys.1125/)**: You can enable/disable filters with any hotkey.
-2. **[Twitch Chat Hotkeys/OBSChat-Spam](https://obsproject.com/forum/resources/twitch-chat-hotkeys.645/)**: You can send a message/command in your chat with any hotkey. ([Grab your Token](https://twitchapps.com/tmi/))
 
 - Requires **Python 3.7.9**: <https://www.python.org/downloads/release/python-379/>
 - Also requires Python location setup: `%localappdata%/Programs/Python/Python37`
 
-BAD Plugins, **DON'T** use:
+## Plugins which will lag your OBS:
 
-- **SE.Live** (CPU LAG)
+- **SE.Live** (CPU LAG, did they fixed it?)
 
 ## Ingest Servers (URLs for multi-rtmp)
 
