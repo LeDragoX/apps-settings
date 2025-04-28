@@ -39,6 +39,10 @@ In this program I've set up using the **[Open Sans](https://fonts.google.com/spe
 4. Now align the counters, press **Ctrl + S** and exit.
 5. To align to the center, change the relative position on RTSS as **X: 200** for 1080p, adjust accordingly to your resolution.
 
+## Streamer.bot
+
+This is kinda linked to the OBS, but has no direct integration to it, check [this file for more info](./OBS%20Studio/workflow-single-screen.md)
+
 ## VS Code
 
 Not recommended for use, this is more a public backup than anything else.

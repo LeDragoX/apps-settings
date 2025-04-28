@@ -12,6 +12,7 @@ At the moments there are presets/guides for the following softwares:
 - [OBS Studio](https://github.com/obsproject/obs-studio/releases/latest)
 - [Playnite](https://github.com/JosefNemec/Playnite/releases/latest) (Add-ons List)
 - [RivaTuner Statistics Server](https://www.guru3d.com/download/msi-afterburner-beta-download/)
+- [Streamer.bot](https://streamer.bot/)
 - [VS Code](https://code.visualstudio.com/Download)
 
 **🛑 Each link will go directly to its specific download page.**
