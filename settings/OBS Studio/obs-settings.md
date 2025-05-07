@@ -111,30 +111,30 @@ Always have keys to mute **yourself** and **Discord**. If your keyboard have a n
 <details>
 <summary>What I'm Using</summary>
 
-|         Section          |                   Name | Hotkey          |
-| :----------------------: | ---------------------: | :-------------- |
-|      **(General)**       |      Stop Streaming \* | Alt + End       |
-|                          |     Start Recording \* | Alt + Page Down |
-|                          |      Stop Recording \* | Alt + Page Down |
-|                          |     Pause Recording \* | Alt + ]         |
-|                          |   Unpause Recording \* | Alt + ]         |
-|                          | Start Replay Buffer \* | Alt + /         |
-|                          | Start Replay Buffer \* | Alt + /         |
-|                          |   Screenshot Output \* | Alt + F12       |
-|    **Replay Buffer**     |         Save Replay \* | Alt + .         |
-|                          |         Save Replay \* | Alt + C         |
-|       **Scene 1**        |        Switch to scene | Alt + Num 1     |
-|       **Scene 2**        |        Switch to scene | Alt + Num 2     |
-|       **Scene 3**        |        Switch to scene | Alt + Num 3     |
-|       **Scene 4**        |        Switch to scene | Alt + Num 4     |
-|   **Stream Starting**    |        Switch to scene | Alt + Num 8     |
-|    **Stream Ending**     |        Switch to scene | Alt + Num 9     |
-|     **A - Discord**      |                Mute \* | Alt + Num ,     |
-|                          |              Unmute \* | Alt + Num ,     |
-| **A - General Isolated** |                Mute \* | Alt + M         |
-|                          |              Unmute \* | Alt + M         |
-|       **A - Mic**        |                Mute \* | Alt + Num 0     |
-|                          |              Unmute \* | Alt + Num 0     |
+|       Section        |                   Name | Hotkey          |
+| :------------------: | ---------------------: | :-------------- |
+|    **(General)**     |      Stop Streaming \* | Alt + End       |
+|                      |     Start Recording \* | Alt + Page Down |
+|                      |      Stop Recording \* | Alt + Page Down |
+|                      |     Pause Recording \* | Alt + ]         |
+|                      |   Unpause Recording \* | Alt + ]         |
+|                      | Start Replay Buffer \* | Alt + /         |
+|                      | Start Replay Buffer \* | Alt + /         |
+|                      |   Screenshot Output \* | Alt + F12       |
+|  **Replay Buffer**   |         Save Replay \* | Alt + .         |
+|                      |         Save Replay \* | Alt + C         |
+|     **Scene 1**      |        Switch to scene | Alt + Num 1     |
+|     **Scene 2**      |        Switch to scene | Alt + Num 2     |
+|     **Scene 3**      |        Switch to scene | Alt + Num 3     |
+|     **Scene 4**      |        Switch to scene | Alt + Num 4     |
+| **Stream Starting**  |        Switch to scene | Alt + Num 8     |
+|  **Stream Ending**   |        Switch to scene | Alt + Num 9     |
+|   **A - Discord**    |                Mute \* | Alt + Num ,     |
+|                      |              Unmute \* | Alt + Num ,     |
+|     **A - Mic**      |                Mute \* | Alt + Num 0     |
+|                      |              Unmute \* | Alt + Num 0     |
+| **G - Game Capture** |                Mute \* | Alt + M         |
+|                      |              Unmute \* | Alt + M         |
 
 </details>
 

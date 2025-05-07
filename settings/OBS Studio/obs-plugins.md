@@ -15,7 +15,6 @@ I highly suggest to start reading [OBS Settings](obs-settings.md) first if _you 
 8. **[Scene as Transition](https://obsproject.com/forum/resources/scene-as-transition.1704/)**: Use a entire scene to act as a transition.
 9. **[Stroke Glow Shadow](https://obsproject.com/forum/resources/stroke-glow-shadow.1800/)**: Adds essential design filters to any of your sources (was from the old StreamFX).
 10. **[Waveform (Audio Visualizer)](https://obsproject.com/forum/resources/waveform.1423/)**: Adds a visualizer to some sound scene.
-11. **[win-capture-audio](https://obsproject.com/forum/resources/win-capture-audio.1338/)**: Filter any audio you don't want to output in 1 source.
 
 ## Themes
 
