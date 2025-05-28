@@ -18,6 +18,9 @@ _The "Meme" presets are to fit 10MB on Discord._
 
 Open this app and and Import the settings, then click on "**Apply Changes**".
 
+> [!NOTE]
+> There are 2 files, one forces **DLSS 4** only, the other forces **DLSS 4 + ReBar** on any game.
+
 _Requires a NVIDIA GPU._
 
 ## OBS Studio

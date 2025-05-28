@@ -188,25 +188,25 @@ Line0Cell0Source=Framerate
 [Layer0]
 Name=CPU usage
 Text=%CPU usage%%
-PositionX=-46
+PositionX=-45
 PositionY=0
 ExtentX=-3
 ExtentY=-1
 ExtentOrigin=5
 TextColor=FFFFFF
 [Layer1]
-Name=API + FRAMERATE
+Name=FPS + FRAMETIME
 Text=%Framerate% <S=50>FPS<S> <FT> <S=66>ms<S>
-PositionX=-8
+PositionX=-7
 PositionY=0
 ExtentX=-9
 ExtentY=-1
 ExtentOrigin=5
 TextColor=FFFFFF
 [Layer2]
-Name=FRAMETIME
+Name=FRAMETIME Bar
 Text=<G=Frametime,-35,5,0,0,100,0>
-PositionX=-19
+PositionX=-18
 PositionY=0
 ExtentX=-18
 ExtentY=-1
@@ -216,7 +216,7 @@ TextColor=80FF80
 [Layer3]
 Name=Separator
 Text=|
-PositionX=-37
+PositionX=-36
 PositionY=0
 ExtentX=-2
 ExtentY=-1
@@ -226,7 +226,7 @@ TextColor=C68EFF
 [Layer4]
 Name=Separator
 Text=|
-PositionX=-81
+PositionX=-80
 PositionY=0
 ExtentX=-2
 ExtentY=-1
@@ -236,7 +236,7 @@ TextColor=C68EFF
 [Layer5]
 Name=Separator
 Text=|
-PositionX=-100
+PositionX=-99
 PositionY=0
 ExtentX=-2
 ExtentY=-1
@@ -246,7 +246,7 @@ TextColor=C68EFF
 [Layer6]
 Name=Separator
 Text=|
-PositionX=-57
+PositionX=-56
 PositionY=0
 ExtentX=-2
 ExtentY=-1
@@ -257,7 +257,7 @@ TextColor=C68EFF
 Name=" GPU temperature"
 VisibilitySource=GPU temperature
 Text=%GPU temperature%<S=66>°C<S>
-PositionX=-74
+PositionX=-73
 PositionY=0
 ExtentX=-3
 ExtentY=-1
@@ -266,16 +266,16 @@ TextColor=FFFFFF
 [Layer8]
 Name=GPU
 Text=%GPU% %VRAM%
-PositionX=-59
+PositionX=-58
 PositionY=0
 ExtentX=-7
 ExtentY=-1
 ExtentOrigin=0
 TextColor=80FF80
 [Layer9]
-Name=CPU
+Name=CPU Name
 Text=%CPUShort%
-PositionX=-39
+PositionX=-38
 PositionY=0
 ExtentX=-6
 ExtentY=-1
@@ -284,7 +284,7 @@ TextColor=63C9F2
 [Layer10]
 Name=RAM
 Text=RAM
-PositionX=-83
+PositionX=-82
 PositionY=0
 ExtentX=-4
 ExtentY=-1
@@ -293,16 +293,16 @@ TextColor=CD78A3
 [Layer11]
 Name=FPS API
 Text=<APP>
-PositionX=-1
+PositionX=0
 PositionY=0
 ExtentX=-6
 ExtentY=-1
 ExtentOrigin=5
 TextColor=DB7A7E
 [Layer12]
-Name=CPU temp 1
+Name=CPU Temp All
 Text=%CPU temperature%<S=66>°C<S>
-PositionX=-50
+PositionX=-49
 PositionY=0
 ExtentX=-3
 ExtentY=-1
@@ -311,7 +311,7 @@ TextColor=FFFFFF
 [Layer13]
 Name=Separator
 Text=|
-PositionX=-17
+PositionX=-16
 PositionY=0
 ExtentX=-2
 ExtentY=-1
@@ -319,9 +319,9 @@ ExtentOrigin=4
 Size=90
 TextColor=C68EFF
 [Layer14]
-Name=CPU usage
+Name=GPU usage
 Text=%GPU usage%%
-PositionX=-70
+PositionX=-69
 PositionY=0
 ExtentX=-3
 ExtentY=-1
@@ -330,7 +330,7 @@ TextColor=FFFFFF
 [Layer15]
 Name=RAM usage
 Text=%RAM usage%<S=66>MiB<S> (%RAM usage \ process%<S=66>MiB<S>)
-PositionX=-87
+PositionX=-86
 PositionY=0
 ExtentX=-13
 ExtentY=-1
@@ -339,7 +339,7 @@ TextColor=FFFFFF
 [Layer16]
 Name=VRAM
 Text=VRAM
-PositionX=-102
+PositionX=-101
 PositionY=0
 ExtentX=-5
 ExtentY=-1
@@ -348,7 +348,7 @@ TextColor=BD7DD2
 [Layer17]
 Name=RAM usage
 Text=%GPU1 memory usage%<S=66>MiB<S> (%GPU1 memory usage \ process%<S=66>MiB<S>)
-PositionX=-107
+PositionX=-106
 PositionY=0
 ExtentX=-12
 ExtentY=-1
@@ -357,7 +357,7 @@ TextColor=FFFFFF
 [Layer18]
 Name=Separator
 Text=|
-PositionX=-119
+PositionX=-118
 PositionY=0
 ExtentX=-2
 ExtentY=-1
@@ -365,18 +365,18 @@ ExtentOrigin=4
 Size=90
 TextColor=C68EFF
 [Layer19]
-Name=CPU usage
+Name=CPU Power
 Text=%CPU power%<S=66>W<S>
-PositionX=-53
+PositionX=-52
 PositionY=0
 ExtentX=-4
 ExtentY=-1
 ExtentOrigin=5
 TextColor=FFFFFF
 [Layer20]
-Name=CPU usage
+Name=GPU Power
 Text=%GPU1 power%<S=66>W<S>
-PositionX=-77
+PositionX=-76
 PositionY=0
 ExtentX=-4
 ExtentY=-1
@@ -385,7 +385,7 @@ TextColor=FFFFFF
 [Layer21]
 Name=
 Text=<TIME=%H:%M>
-PositionX=-121
+PositionX=-120
 PositionY=0
 ExtentX=-4
 ExtentY=-1
@@ -395,7 +395,7 @@ TextColor=FFFFFF
 Name=Avg FPS & 1% Low
 VisibilitySource=Framerate Avg
 Text=%Framerate Avg% <S=50>FPS<S> %Framerate 1% Low% <S=50>FPS<S>
-PositionX=-66
+PositionX=-65
 PositionY=-1
 ExtentX=-9
 ExtentY=-1
@@ -405,7 +405,7 @@ TextColor=FFFFFF
 Name=Avg FPS & 1% Low Label
 VisibilitySource=Framerate Avg
 Text=AVG/1%
-PositionX=-59
+PositionX=-58
 PositionY=-1
 ExtentX=-6
 ExtentY=-1
