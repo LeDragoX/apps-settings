@@ -41,17 +41,41 @@ Set the **Output Mode** to `Advanced`, so you can see all the options.
 
 #### Streaming
 
-**Remember**: only the available encoders will show for your platform.
+**Remember:** make sure your **_GPU drivers_** are up to date.
 
-The **Video Encoder** quality order: AV1 > HEVC > H.264
+> [!CAUTION]
+> ALWAYS prefer using _hardware encoder_ over _software encoder_ when possible.
+
+The **Video Encoder** quality order will usually be this way: **AV1** > **HEVC** > **H.264**
 
 On **YouTube**, based on their _[streaming settings](https://support.google.com/youtube/answer/2853702)_, **AV1** and **HEVC** can go up to `10.000kbps` of Bitrate and **H.264** can go up to `12.000kbps`.
 
 On **Twitch** you can bypass the `6000kbps` Bitrate and go up to `8000kbps` for some people, test it first.
 
-![Streaming Settings Hardware](./assets/obs64-av1.png)
+<ins>Use the following settings if you find yourself in **ONE** of these situations:</ins>
 
-If you want to Stream in HDR, AV1 is not currently supported
+1. Your Graphics Card has 8GB or less of VRAM;
+   - This only applies if you are streaming GAMES;
+2. Your graphics card **DOESN'T** have a dedicated chip just for encoding, sharing 3D with video encoding/decoding;
+3. You are doing **multi-stream** with the same GPU (will use 2 or more encoder sessions);
+
+<div align="center">
+
+![Streaming Settings Hardware](./assets/obs64-av1.png)
+**_VRAM USAGE:_** _70MB per encoding session_
+
+</div>
+
+<ins>Otherwise you can push a little more from OBS settings:</ins>
+
+<div align="center">
+
+![Streaming Settings Hardware 8GB+ VRAM](./assets/obs64-av1-above-8gb.png)
+**_VRAM USAGE:_** _269MB per encoding session_
+
+</div>
+
+If you want to Stream in HDR, AV1 is not currently supported.
 
 Always use the GPU encoder if possible! But if you can only encode from your CPU, here's some settings.
 
