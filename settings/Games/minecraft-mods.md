@@ -15,7 +15,7 @@ These mods will provide a better **Vanilla experience**, but **Minecraft** speci
 
 - [Entity Culling](https://modrinth.com/mod/entityculling)
 - [Ferrite Core](https://modrinth.com/mod/ferrite-core)
-- [ImmediatlyFast](https://modrinth.com/mod/immediatelyfast)
+- [ImmediatelyFast](https://modrinth.com/mod/immediatelyfast)
 - [Lithium](https://modrinth.com/mod/lithium)
 - [Sodium](https://modrinth.com/mod/sodium)
   - [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
@@ -40,6 +40,7 @@ These mods will provide a better **Vanilla experience**, but **Minecraft** speci
 
 - [Dynamic Surroundings](https://modrinth.com/mod/dynamicsurroundingsfabric)
 - [ImmersiveThunder](https://modrinth.com/mod/immersivethunder)
+- [Presence Footsteps](https://modrinth.com/mod/presence-footsteps)
 
 ### Quality of Life
 
@@ -61,6 +62,7 @@ These mods will provide a better **Vanilla experience**, but **Minecraft** speci
 - [WorldEdit](https://modrinth.com/plugin/worldedit)
 - [World Play Time](https://modrinth.com/mod/world-play-time)
 - [Zoomify](https://modrinth.com/mod/zoomify): Remap the hotkeys first.
+  - **Dependency:** YetAnotherConfigLib (YACL) | **v3.6.6 IS BROKEN**
 
 ## Resource Packs
 
