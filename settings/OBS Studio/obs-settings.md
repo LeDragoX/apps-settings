@@ -59,10 +59,22 @@ On **Twitch** you can bypass the `6000kbps` Bitrate and go up to `8000kbps` for 
 2. Your graphics card **DOESN'T** have a dedicated chip just for encoding, sharing 3D with video encoding/decoding;
 3. You are doing **multi-stream** with the same GPU (will use 2 or more encoder sessions);
 
+**METRICS METHODOLOGY:**
+
+- OBS Studio VRAM USAGE could be measured by MSI Afterburner or the **Details** tab from the _Task Manager_. (Windows 11 Pro 24H2 26100.4351 was used)
+- The task manager always had higher values than afterburner, in conclusion this is the option used.
+- The isolated encoding sessions values were catch from starting/stopping the Replay Buffer.
+- The Scene used contained a 1080p60 Display Capture Source and 6 audio sources. (Note: audio sources doesn't impact VRAM at all)
+
 <div align="center">
 
 ![Streaming Settings Hardware](./assets/obs64-av1.png)
-**_VRAM USAGE:_** _70MB per encoding session_
+
+| Resolution | OBS VRAM | Encoding VRAM Usage |
+| ---------: | :------: | :-----------------: |
+|      1080p | 581.5MB  |       105.6MB       |
+|      1440p | 806.4MB  |       314.7MB       |
+|      2160p | 925.2MB  |       404.4MB       |
 
 </div>
 
@@ -71,7 +83,12 @@ On **Twitch** you can bypass the `6000kbps` Bitrate and go up to `8000kbps` for 
 <div align="center">
 
 ![Streaming Settings Hardware 8GB+ VRAM](./assets/obs64-av1-above-8gb.png)
-**_VRAM USAGE:_** _269MB per encoding session_
+
+| Resolution | OBS VRAM | Encoding VRAM Usage |
+| ---------: | :------: | :-----------------: |
+|      1080p | 785.4MB  |       309.5MB       |
+|      1440p | 947.2MB  |       451.7MB       |
+|      2160p | 1374.8MB |       832.4MB       |
 
 </div>
 
