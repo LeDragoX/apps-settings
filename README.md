@@ -4,7 +4,7 @@ The ideia is simple, save the settings/presets for the apps I'm using publicly.
 
 Please proceed to the [_next page_](settings/)📄 to know more in-depth information.
 
-At the moments there are presets/guides for the following softwares:
+At the moment there are presets/guides for the following softwares:
 
 - Browser Extensions
 - [HandBrake](https://github.com/HandBrake/HandBrake/releases/latest)

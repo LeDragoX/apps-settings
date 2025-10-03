@@ -37,10 +37,8 @@ In this program I've set up using the **[Open Sans](https://fonts.google.com/spe
 
 1. Click on Raster 3D one time, and set the **Font** to **Open Sans** and **Font Style** to **SemiBold**.
 2. Now click on **Setup**, **Plugins** tab check the box **OverlayEditor.dll** and click on it twice.
-3. Click on **Layouts**, **Load**, and open the file **ledragox-steam-deck.ovl**.
-   1. If that didn't worked, click on **Layouts**, **Import** and import the file **ledragox-steam-deck.ovx**.
+3. Click on **Layouts**, **Import**, and open the file **ledragox-steam-deck.ovx**.
 4. Now align the counters, press **Ctrl + S** and exit.
-5. To align to the center, change the relative position on RTSS as **X: 200** for 1080p, adjust accordingly to your resolution.
 
 ## Streamer.bot
 
