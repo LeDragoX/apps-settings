@@ -8,6 +8,8 @@ A list of Browser Addons/Extensions.
 
 The _Games_ folder is exclusive to games settings or mods I use.
 
+Contains **Playnite** addons suggestions and a **ReShade** preset to solve TAA blur, plus some collections on **Steam Workshop** and **mods** suggestions for other games.
+
 ## Handbrake
 
 These settings can be imported as Presets on the app.
@@ -26,10 +28,6 @@ _Requires a NVIDIA GPU._
 ## OBS Studio
 
 Contains settings for Stream/Recording, and plugins (among other things) suggestions.
-
-## Playnite
-
-Has its own [README](./Playnite/Playnite-Addons.md).
 
 ## RivaTuner (RTSS)
 
