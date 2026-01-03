@@ -1,6 +1,6 @@
 # Minecraft Mods, Resource Packs and Shaders v1.21.1
 
-These mods will provide a better **Vanilla experience**, but **Minecraft** specifically does not have so much in the game, I haven't tried content mods yet, but you should know that these mods could be used with content mods to provide a even better experience. Terraria don't have the same lack of content as Minecraft :v
+These mods will provide a better **Vanilla experience**. These mods can be used with content mods to provide an even better experience.
 
 ## Launchers (Original)
 
@@ -97,4 +97,5 @@ Shaders are more personal than ever, here are some shaders I recommend, **Lagles
 
 ## Content
 
-Didn't tried yet, but I enjoyed what the **[TerrariaCraft](https://modrinth.com/mod/terrariacraft)** mod provided.
+- **[TerrariaCraft](https://modrinth.com/mod/terrariacraft)**
+- Soon™
