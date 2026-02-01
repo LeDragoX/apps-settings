@@ -8,7 +8,13 @@ A list of Browser Addons/Extensions.
 
 The _Games_ folder is exclusive to games settings or mods I use.
 
-Contains **Playnite** addons suggestions and a **ReShade** preset to solve TAA blur, plus some collections on **Steam Workshop** and **mods** suggestions for other games.
+Sections:
+
+- **Playnite** addons suggestions;
+- **ReShade** preset to solve TAA blur;
+- My collections on **Steam Workshop**;
+- **Mods** suggestions for other games;
+- Guide to set most PC emulators to **Portable Mode** (Windows and Linux).
 
 ## Handbrake
 

@@ -55,7 +55,7 @@
       <ProfileSetting>
         <SettingNameInfo>Override DLSS-SR presets</SettingNameInfo>
         <SettingID>283385331</SettingID>
-        <SettingValue>16777215</SettingValue>
+        <SettingValue>12</SettingValue>
         <ValueType>Dword</ValueType>
       </ProfileSetting>
       <ProfileSetting>
