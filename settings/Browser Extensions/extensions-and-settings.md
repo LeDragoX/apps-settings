@@ -6,8 +6,9 @@
 4. **I still don't care about cookies**: <https://github.com/OhMyGuus/I-Still-Dont-Care-About-Cookies>
 5. **Violent Monkey**: <https://github.com/violentmonkey/violentmonkey>
    1. **NoAds (NSW) ⭐**: <https://noads.top/nsw.user.js>
-   2. **TwitchAdSolutions (vaft)**: <https://github.com/pixeltris/TwitchAdSolutions/raw/master/vaft/vaft.user.js>
-   3. **Vencord**: <https://raw.githubusercontent.com/Vencord/builds/main/Vencord.user.js>
+   2. **Steam Economy Enhancer**: <https://raw.githubusercontent.com/Nuklon/Steam-Economy-Enhancer/master/code.user.js>
+   3. **TwitchAdSolutions (vaft)**: <https://github.com/pixeltris/TwitchAdSolutions/raw/master/vaft/vaft.user.js>
+   4. **Vencord**: <https://raw.githubusercontent.com/Vencord/builds/main/Vencord.user.js>
 6. **Return YouTube Dislike**: <https://github.com/Anarios/return-youtube-dislike>
 7. **Sponsor Block**: <https://github.com/ajayyy/SponsorBlock>
 8. **BetterTTV**: <https://betterttv.com/>
@@ -18,6 +19,7 @@
 
 1. **Google Translate**: <https://chromewebstore.google.com/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb>
 2. **Netflix 1080p**: <https://chromewebstore.google.com/detail/netflix-1080p/cankofcoohmbhfpcemhmaaeennfbnmgp>
+3. **uBlock Origin Lite**: <https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh>
 
 ## Firefox Only
 
