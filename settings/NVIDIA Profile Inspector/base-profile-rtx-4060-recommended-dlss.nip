@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-16"?>
 <ArrayOfProfile>
   <Profile>
-    <ProfileName />
     <Executeables />
     <Settings>
       <ProfileSetting>
@@ -11,26 +10,20 @@
         <ValueType>Dword</ValueType>
       </ProfileSetting>
       <ProfileSetting>
-        <SettingNameInfo>DLSS Model Preset Profile</SettingNameInfo>
-        <SettingID>6505105</SettingID>
-        <SettingValue>1</SettingValue>
-        <ValueType>Dword</ValueType>
-      </ProfileSetting>
-      <ProfileSetting>
         <SettingNameInfo>Vertical Sync</SettingNameInfo>
         <SettingID>11041231</SettingID>
         <SettingValue>1620202130</SettingValue>
         <ValueType>Dword</ValueType>
       </ProfileSetting>
       <ProfileSetting>
-        <SettingNameInfo>Flag to control smooth AFR behavior</SettingNameInfo>
-        <SettingID>270198627</SettingID>
-        <SettingValue>0</SettingValue>
+        <SettingNameInfo>Pre-Compile Shader Options</SettingNameInfo>
+        <SettingID>15389065</SettingID>
+        <SettingValue>2</SettingValue>
         <ValueType>Dword</ValueType>
       </ProfileSetting>
       <ProfileSetting>
-        <SettingNameInfo>Override DLSSG multi-frame count</SettingNameInfo>
-        <SettingID>273507943</SettingID>
+        <SettingNameInfo>Flag to control smooth AFR behavior</SettingNameInfo>
+        <SettingID>270198627</SettingID>
         <SettingValue>0</SettingValue>
         <ValueType>Dword</ValueType>
       </ProfileSetting>
@@ -65,44 +58,8 @@
         <ValueType>Dword</ValueType>
       </ProfileSetting>
       <ProfileSetting>
-        <SettingNameInfo>Override DLSS-SR performance mode</SettingNameInfo>
-        <SettingID>279951208</SettingID>
-        <SettingValue>3</SettingValue>
-        <ValueType>Dword</ValueType>
-      </ProfileSetting>
-      <ProfileSetting>
-        <SettingNameInfo>Override DLSS-RR performance mode</SettingNameInfo>
-        <SettingID>280859683</SettingID>
-        <SettingValue>3</SettingValue>
-        <ValueType>Dword</ValueType>
-      </ProfileSetting>
-      <ProfileSetting>
-        <SettingNameInfo>Override scaling ratio for DLSS-RR</SettingNameInfo>
-        <SettingID>281531554</SettingID>
-        <SettingValue>0</SettingValue>
-        <ValueType>Dword</ValueType>
-      </ProfileSetting>
-      <ProfileSetting>
-        <SettingNameInfo>Override DLSS-FG preset</SettingNameInfo>
-        <SettingID>283385329</SettingID>
-        <SettingValue>0</SettingValue>
-        <ValueType>Dword</ValueType>
-      </ProfileSetting>
-      <ProfileSetting>
         <SettingNameInfo>Override DLSS-SR presets</SettingNameInfo>
         <SettingID>283385331</SettingID>
-        <SettingValue>16777215</SettingValue>
-        <ValueType>Dword</ValueType>
-      </ProfileSetting>
-      <ProfileSetting>
-        <SettingNameInfo>Override scaling ratio for DLSS-SR</SettingNameInfo>
-        <SettingID>283385333</SettingID>
-        <SettingValue>0</SettingValue>
-        <ValueType>Dword</ValueType>
-      </ProfileSetting>
-      <ProfileSetting>
-        <SettingNameInfo />
-        <SettingID>283385334</SettingID>
         <SettingValue>16777215</SettingValue>
         <ValueType>Dword</ValueType>
       </ProfileSetting>
