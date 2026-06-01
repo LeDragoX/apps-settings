@@ -1,4 +1,4 @@
-# Minecraft Mods, Resource Packs and Shaders v1.21.1
+# Minecraft Mods, Resource Packs and Shaders v1.21.11
 
 These mods will provide a better **Vanilla experience**. These mods can be used with content mods to provide an even better experience.
 
@@ -26,15 +26,27 @@ These mods will provide a better **Vanilla experience**. These mods can be used 
 - [Better Beds](https://modrinth.com/mod/better-beds)
 - [Cave Dust](https://modrinth.com/mod/cave-dust)
 - [Continuity](https://modrinth.com/mod/continuity)
+- [Cosy Critters & Creepy Crawlies](https://modrinth.com/mod/cosy-critters)
+- [Dense Flowers](https://modrinth.com/mod/dense-flowers)
 - [Distant Horizons](https://modrinth.com/mod/distanthorizons)
 - [Dynamic Lights](https://modrinth.com/datapack/dynamic-lights) by Tschipcraft
+- [Explosive Enhancement](https://modrinth.com/mod/explosive-enhancement)
+- [Falling Leaves](https://modrinth.com/mod/fallingleaves)
 - [First-person Model](https://modrinth.com/mod/first-person-model)
 - [Glowing Torchflower](https://modrinth.com/mod/glowing-torchflower) (1.20+)
+- [Immersive Storms](https://modrinth.com/mod/immersive-storms)
 - [Iris Shaders](https://modrinth.com/mod/iris)
 - [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
+- [Particle Interactions](https://modrinth.com/mod/particle-interactions)
 - [Particle Rain](https://modrinth.com/mod/particle-rain)
+- [Ripple](https://modrinth.com/mod/ripple)
+- [Subtle Effects](https://modrinth.com/mod/subtle-effects)
+  - [Fzzy Config](https://modrinth.com/mod/fzzy-config)
+- [Swinging Lanterns](https://modrinth.com/mod/swinging-lanterns)
+- [Tightfire](https://modrinth.com/mod/tightfire)
 - [Visuality](https://modrinth.com/mod/visuality)
 - [Wakes](https://modrinth.com/mod/wakes)
+- [Wet sand](https://modrinth.com/mod/wet-sand)
 
 ### Audio
 
@@ -58,6 +70,8 @@ These mods will provide a better **Vanilla experience**. These mods can be used 
 - [Scribble](https://modrinth.com/mod/scribble)
 - [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)
 - [Status Effect Bars](https://modrinth.com/mod/status-effect-bars)
+- [Tectonic](https://modrinth.com/mod/tectonic) (Terrain Generation)
+  - [Lithostitched](https://modrinth.com/mod/lithostitched)
 - [Text Formatting Everywhere](https://modrinth.com/mod/text-formatting-everywhere)
 - [WorldEdit](https://modrinth.com/plugin/worldedit)
 - [World Play Time](https://modrinth.com/mod/world-play-time)
@@ -72,10 +86,14 @@ Remember to enable the resource packs once on the menu or in-game.
 - [Better Flame Particles](https://modrinth.com/resourcepack/better-flame-particles)
 - [Better Lanterns](https://modrinth.com/resourcepack/better-lanterns) (and Chains)
 - [Better Hoppers](https://www.curseforge.com/minecraft/texture-packs/hoppers)
+- [Blinking Ender Eyes](https://modrinth.com/resourcepack/blinking-ender-eyes)
+- [Bushy pink petals, wildflowers & leaf litter](https://modrinth.com/resourcepack/bushy-pinkpetals-wildflowers-leaflitter)
 - [Enchant Icons](https://modrinth.com/resourcepack/enchant-icons-countxd)
 - [Enhanced Grass](https://modrinth.com/resourcepack/enhanced-grass)
 - [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations)
+- [Fresh Animations: Player Extension](https://modrinth.com/resourcepack/fa-player-extension)
 - [No Pumpkin Blur](https://modrinth.com/resourcepack/no-pumpkin-blur)
+- [Os' Colorful Grasses](https://modrinth.com/resourcepack/os-colorful-grasses)
 - [Remodeled Doors 3D](https://modrinth.com/resourcepack/remodeled-doors)
 - [Reni's Hidden Totem](https://www.curseforge.com/minecraft/texture-packs/renis-hidden-totem-invisible-totem-of-undying-for)
 - [Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)
@@ -88,6 +106,7 @@ Shaders are more personal than ever, here are some shaders I recommend, **Lagles
 
 - [Bliss Shaders](https://modrinth.com/shader/bliss-shader)
 - [BSL Shaders](https://modrinth.com/shader/bsl-shaders)
+- [CazToon (Paid)](https://www.patreon.com/posts/caztoon-beta-1-2-157036165) (Use with [Whimscape](https://modrinth.com/resourcepack/whimscape))
 - Complementary Shaders [ReImagined](https://modrinth.com/shader/complementary-reimagined) / [Unbound](https://modrinth.com/shader/complementary-unbound)
 - [Lagless Shaders](https://www.9minecraft.net/lagless-shaders-mod/) Lite / Standard
 - [Lux](https://modrinth.com/shader/lux-v1)
