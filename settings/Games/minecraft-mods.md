@@ -24,6 +24,7 @@ These mods will provide a better **Vanilla experience**. These mods can be used 
 - [NoisiumForked](https://modrinth.com/mod/noisiumforked)
 - [Sodium](https://modrinth.com/mod/sodium)
   - [Reese's Sodium Options](https://modrinth.com/mod/reeses-sodium-options)
+  - [Sodium Extra](https://modrinth.com/mod/sodium-extra)
 
 ### Visual
 
@@ -35,12 +36,13 @@ These mods will provide a better **Vanilla experience**. These mods can be used 
 - [Dense Flowers](https://modrinth.com/mod/dense-flowers)
 - [Diagonal Fences](https://modrinth.com/mod/diagonal-fences)
 - [Diagonal Walls](https://modrinth.com/mod/diagonal-walls)
-- [Dynamic Lights](https://modrinth.com/datapack/dynamic-lights) by Tschipcraft
+- [Dynamic Lights](https://modrinth.com/mod/dynamic-lights) by Tschipcraft
 - [Explosive Enhancement](https://modrinth.com/mod/explosive-enhancement)
 - [Falling Leaves](https://modrinth.com/mod/fallingleaves)
 - [First-person Model](https://modrinth.com/mod/first-person-model)
 - [Glowing Torchflower](https://modrinth.com/mod/glowing-torchflower) (1.20+)
 - [Immersive Storms](https://modrinth.com/mod/immersive-storms)
+- [Inventory Management](https://modrinth.com/mod/inventory-management)
 - [Iris Shaders](https://modrinth.com/mod/iris)
 - [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
 - [Particle Interactions](https://modrinth.com/mod/particle-interactions)
@@ -56,6 +58,7 @@ These mods will provide a better **Vanilla experience**. These mods can be used 
 
 ### Audio
 
+- [AmbientSounds](https://modrinth.com/mod/ambientsounds)
 - [Dynamic Surroundings](https://modrinth.com/mod/dynamicsurroundingsfabric)
 - [ImmersiveThunder](https://modrinth.com/mod/immersivethunder)
 - [Presence Footsteps](https://modrinth.com/mod/presence-footsteps)
@@ -68,10 +71,8 @@ These mods will provide a better **Vanilla experience**. These mods can be used 
 - [Better F1 Reborn](https://modrinth.com/mod/better-f1-reborn)
 - [Better Ping Display](https://modrinth.com/mod/better-ping-display-fabric)
 - [Better Statistics Screen](https://modrinth.com/mod/better-stats)
-- [Camera Utils](https://modrinth.com/mod/camera-utils)
 - [Cherished Worlds](https://modrinth.com/mod/cherished-worlds)
 - [CleanF3](https://modrinth.com/mod/clean-f3)
-- [Controlling](https://modrinth.com/mod/controlling)
 - [Cubes Without Borders](https://modrinth.com/mod/cubes-without-borders)
 - [InvMove](https://modrinth.com/mod/invmove)
 - [Leaf Me Alone](https://modrinth.com/mod/leaf-me-alone)
@@ -93,17 +94,19 @@ These mods will provide a better **Vanilla experience**. These mods can be used 
 - [Structory Towers](https://modrinth.com/datapack/structory-towers)
 - [Structures](https://modrinth.com/datapack/structures-mod) by Garakrral
 - [Towns and Towers](https://modrinth.com/mod/towns-and-towers)
--
 
 ### Utility
 
 - [Axiom](https://modrinth.com/mod/axiom): In creative mode disable a option to not show a cube to where you are pointing, it's annoying and can be disabled.
+- [Camera Utils](https://modrinth.com/mod/camera-utils)
 - [Chunky](https://modrinth.com/mod/chunky) (CLI Tool)
+- [Controlling](https://modrinth.com/mod/controlling)
+- [CraftPresence](https://modrinth.com/mod/craftpresence)
 - [Crash Assistant](https://modrinth.com/mod/crash-assistant)
 - [Flyspeed](https://modrinth.com/mod/fly_speed)
 - [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)
 - [WorldEdit](https://modrinth.com/plugin/worldedit)
-- [Zoomify](https://modrinth.com/mod/zoomify): Remap the hotkeys first.
+- [Zoomify (Zoom)](https://modrinth.com/mod/zoomify): Remap the hotkeys first.
 
 ### World Generation
 
@@ -120,14 +123,24 @@ These mods will provide a better **Vanilla experience**. These mods can be used 
 
 ### Dependencies
 
+- [Architectury API](https://modrinth.com/mod/architectury-api) - Required by **Countered's Terrain Slabs**
+- [Cloth Config API](https://modrinth.com/mod/cloth-config) - Required by **Concurrent Chunk Management Engine (Fabric) (C2ME)**
+- [CreativeCore](https://modrinth.com/mod/creativecore) - Required by **AmbientSounds**
 - [Cristel Lib](https://modrinth.com/mod/cristel-lib) - Required by **Towns and Towers**
-- [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port) - Required by **Diagonal Fences**, **Diagonal Walls** & **Leaves Be Gone**
+- [[EMF] Entity Model Features](https://modrinth.com/mod/entity-model-features) - Required by **Fresh Animations**
+- [[ETF] Entity Texture Features](https://modrinth.com/mod/entitytexturefeatures) - Required by **Fresh Animations**
+- [Fabric API](https://modrinth.com/mod/fabric-api) - Required by **every mod listed**
+- [Fabric Language Kotlin](https://modrinth.com/mod/fabric-language-kotlin) - Required by **Zoomify (Zoom)**
+- [Forge Config API Port](https://modrinth.com/mod/forge-config-api-port) - Required by **Diagonal Fences**
 - [Fzzy Config](https://modrinth.com/mod/fzzy-config) - Required by **Subtle Effects**
 - [Lithostitched](https://modrinth.com/mod/lithostitched) - Required by **Tectonic**
 - [Moog's Structure Lib (moogs_structures)](https://modrinth.com/mod/moogs-structure-lib) - Required by **MVS - Moog's Voyager Structures**
-- [Puzzles Lib](https://modrinth.com/mod/puzzles-lib) - Required by **Diagonal Fences**, **Diagonal Walls**, **Illager Invasion** & **Leaves Be Gone**
+- [Puzzles Lib](https://modrinth.com/mod/puzzles-lib) - Required by **Diagonal Fences**
 - [Resourceful Lib](https://modrinth.com/mod/resourceful-lib) - Required by **It Takes a Pillage Continuation**
-- [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) - Required by **Zoomify**
+- [Searchables](https://modrinth.com/mod/searchables) - Required by **Controlling**
+- [TCDCommons API](https://modrinth.com/mod/tcdcommons) - Required by **Better Statistics Screen**
+- [UniLib](https://modrinth.com/mod/unilib) - Required by **CraftPresence**
+- [YetAnotherConfigLib (YACL)](https://modrinth.com/mod/yacl) - Required by **Zoomify (Zoom)**
 
 ## Resource Packs
 
@@ -138,6 +151,7 @@ Remember to enable the resource packs once on the menu or in-game.
 - [Better Hoppers](https://www.curseforge.com/minecraft/texture-packs/hoppers)
 - [Blinking Ender Eyes](https://modrinth.com/resourcepack/blinking-ender-eyes)
 - [Bushy pink petals, wildflowers & leaf litter](https://modrinth.com/resourcepack/bushy-pinkpetals-wildflowers-leaflitter)
+- [Colourful containers GUI](https://modrinth.com/resourcepack/colourful-containers-gui)
 - [Enchant Icons](https://modrinth.com/resourcepack/enchant-icons-countxd)
 - [Enhanced Grass](https://modrinth.com/resourcepack/enhanced-grass)
 - [Fresh Animations](https://modrinth.com/resourcepack/fresh-animations)
@@ -145,9 +159,7 @@ Remember to enable the resource packs once on the menu or in-game.
 - [No Pumpkin Blur](https://modrinth.com/resourcepack/no-pumpkin-blur)
 - [Os' Colorful Grasses](https://modrinth.com/resourcepack/os-colorful-grasses)
 - [Overlay's](https://modrinth.com/resourcepack/overlays)
-- [Reni's Hidden Totem](https://www.curseforge.com/minecraft/texture-packs/renis-hidden-totem-invisible-totem-of-undying-for)
 - [Simple Grass Flowers](https://modrinth.com/resourcepack/simple-grass-flowers)
-- [SPBR](https://modrinth.com/resourcepack/spbr) (Optional)
 - [Spring Flowers](https://modrinth.com/resourcepack/spring-flowers)
 - [VanillaTweaks](https://vanillatweaks.net/picker/resource-packs/) (3D): Use "Pick all" from the **3D** category.
 
@@ -168,7 +180,7 @@ Shaders are more personal than ever, here are some shaders I recommend, use **Ec
 - [Sildur's Enhanced Default](https://modrinth.com/shader/sildurs-enhanced-default-shaders)
 - [Sildur's Vibrant Shaders](https://modrinth.com/shader/sildurs-vibrant-shaders)
 
-## Content (Suggestion)
+## Unfitting Contents
 
 - **[TerrariaCraft](https://modrinth.com/mod/terrariacraft)**
 - Soon™
