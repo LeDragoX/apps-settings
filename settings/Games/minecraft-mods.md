@@ -44,6 +44,7 @@ These mods will provide a better **Vanilla experience**. These mods can be used 
 - [Immersive Storms](https://modrinth.com/mod/immersive-storms)
 - [Inventory Management](https://modrinth.com/mod/inventory-management)
 - [Iris Shaders](https://modrinth.com/mod/iris)
+  - [IrisSearch](https://modrinth.com/mod/irissearch)
 - [Not Enough Animations](https://modrinth.com/mod/not-enough-animations)
 - [Particle Interactions](https://modrinth.com/mod/particle-interactions)
 - [Particle Rain](https://modrinth.com/mod/particle-rain)
@@ -172,15 +173,29 @@ Shaders are more personal than ever, here are some shaders I recommend, use **Ec
 - [CazToon (Paid)](https://www.patreon.com/posts/caztoon-beta-1-2-157036165) (Use with [Whimscape](https://modrinth.com/resourcepack/whimscape))
 - Complementary Shaders [ReImagined](https://modrinth.com/shader/complementary-reimagined) / [Unbound](https://modrinth.com/shader/complementary-unbound)
 - [Eclipse (Bliss' Edit)](https://github.com/Merlin1809/Eclipse-Shader#how-to-download-the-latest-version) \*
-- [Lagless Shaders](https://www.9minecraft.net/lagless-shaders-mod/) Lite / Standard
 - [Lux](https://modrinth.com/shader/lux-v1)
 - [MakeUp - Ultra Fast](https://modrinth.com/shader/makeup-ultra-fast-shaders)
 - [Photon Shaders](https://modrinth.com/shader/photon-shader)
-- [SEUS Renewed](https://sonicether.com/shaders/download/renewed-v1-0-1/)
-- [Sildur's Enhanced Default](https://modrinth.com/shader/sildurs-enhanced-default-shaders)
-- [Sildur's Vibrant Shaders](https://modrinth.com/shader/sildurs-vibrant-shaders)
 
-## Unfitting Contents
+### Low-end Shaders
 
+- [BVS - Best Vanilla Shader](https://modrinth.com/shader/bvs)
+- [I Like Vanilla](https://modrinth.com/shader/i-like-vanilla)
+- [Just Colored Lighting](https://modrinth.com/shader/just-colored-lighting)
+- [Kyoko Shaders](https://modrinth.com/shader/kyoko-shaders)
+- [Lagless Shaders](https://www.9minecraft.net/lagless-shaders-mod/) (Lite)
+- [Lumina Shader - Lite](https://modrinth.com/shader/lumina-shader-lite)
+- [Mellow](https://modrinth.com/shader/mellow)
+- [Potato Shaders](https://modrinth.com/shader/potato-shaders)
+- [Sildur's Enhanced Default](https://modrinth.com/shader/sildurs-enhanced-default-shaders) (Fast)
+- [Sildur's Vibrant Shaders](https://modrinth.com/shader/sildurs-vibrant-shaders) (Lite)
+- [Star Shaders](https://modrinth.com/shader/starshaders)
+- [TrueLightFX Lite](https://modrinth.com/shader/truelight-fx-lite)
+
+## Try These As Well
+
+Another _content mods_ suggestions, outside from the modpack.
+
+- **[The Aether](https://modrinth.com/mod/aether)**
 - **[TerrariaCraft](https://modrinth.com/mod/terrariacraft)**
 - Soon™
